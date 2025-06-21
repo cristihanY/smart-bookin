@@ -1,11 +1,11 @@
 # Carpetas del entorno de desarrollo
-.idea/
+.idea
 .vscode/
-venv/
+venv
 .env/
 
 # Archivos compilados por Python
-__pycache__/
+__pycache__
 *.py[cod]
 *.pyo
 *.pyd
