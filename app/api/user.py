@@ -26,5 +26,5 @@ def get_user(user_id: int, db: session_db):
 
 @router.delete("/{user_id}", response_model=bool)
 def delete_user(user_id: int, db: session_db):
-    user_service = UserService(db =ls db)
+    user_service = UserService(db =db)
     return user_service.delete(user_id)
